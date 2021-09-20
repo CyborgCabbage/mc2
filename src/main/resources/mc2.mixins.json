@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.cyborgcabbage.mc2.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [
+  ],
+  "client": [
+    "MinecraftMixin",
+    "AbstractClientPlayerMixin",
+    "RemoteClientPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
