@@ -8,9 +8,9 @@
   "server": [
   ],
   "client": [
+    "ImageDownloadThreadMixin",
     "MinecraftMixin",
-    "AbstractClientPlayerMixin",
-    "RemoteClientPlayerMixin"
+    "MouseFixMixin"
   ],
   "injectors": {
     "defaultRequire": 1
