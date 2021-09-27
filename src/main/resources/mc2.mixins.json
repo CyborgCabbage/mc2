@@ -4,10 +4,16 @@
   "package": "net.cyborgcabbage.mc2.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ChunkMixin",
+    "DimensionMixin",
+    "LevelMixin",
+    "McRegionDimensionFileMixin",
+    "TestMixin"
   ],
   "server": [
   ],
   "client": [
+    "BipedMixin",
     "ImageDownloadThreadMixin",
     "MinecraftMixin",
     "MouseFixMixin"

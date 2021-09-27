@@ -14,7 +14,6 @@ public class MouseFixMixin {
     public void mouseFix(CallbackInfo ci){
         if(Display.isFullscreen()){
             Mouse.setCursorPosition(Display.getWidth() / 2, Display.getHeight() / 2);
-            System.out.println("FULLSCREEN MODE | FULLSCREEN MODE | FULLSCREEN MODE");
         }
     }
 }
